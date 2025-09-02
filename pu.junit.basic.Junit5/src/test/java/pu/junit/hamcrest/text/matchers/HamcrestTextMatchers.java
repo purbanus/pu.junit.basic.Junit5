@@ -1,7 +1,8 @@
 package pu.junit.hamcrest.text.matchers;
 
-//import static org.junit.Assert.*;
-
+/**
+ * Dit komt uit https://www.baeldung.com/hamcrest-text-matchers
+ */
 //====================================================================================================================
 //BELANGRIJK
 //In Eclipse kan hij de volgende twee imports niet vinden. Deze moet je dus met de hand toevoegen
