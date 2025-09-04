@@ -567,6 +567,7 @@ public void givenBigCountryData_usingCountryUtil_isBigCountry_shouldReturnTrue_s
 //arguments("China", 1_419_321_278),
 //arguments("United States", 345_426_571)
 //maar wat die arguments nou betekent....
+@SuppressWarnings( "unused" )
 private static List<Arguments> simpleArguments = Arrays.asList(
         Arguments.of("India", 1_450_935_791),
         Arguments.of("China", 1_419_321_278),
