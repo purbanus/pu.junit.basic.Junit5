@@ -11,6 +11,7 @@ import static org.hamcrest.MatcherAssert.*;
 import static org.hamcrest.Matchers.*;
 
 import static pu.junit.assertthat.IsPositiveInteger.isAPositiveInteger;
+//import static pu.junit.assertthat.IsNotANumber.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -425,7 +426,7 @@ Here is a test that uses our new custom matcher:
 public void givenInteger_whenAPositiveValue_thenCorrect() {
     int num = 1;
     // Je MOET hier een static import van isAPositiveInteger doen, anders kannie hem niet vinden.
-    // Bij het volgende voorbeeld hoeft dat niet!
+    // Bij het volgende voorbeeld hoeft dat niet! Wel dus. raar allemaal
     assertThat(num, isAPositiveInteger());
 }
 /**
@@ -435,6 +436,7 @@ java.lang.AssertionError: Expected: a positive integer but: was <-1>
 
 /**
  * Deze test komt uit https://hamcrest.org/JavaHamcrest/tutorial
+ * Maar je moet dus wel een import static doen ook al zittie in hetelfde package
  */
 @Test
 public void testSquareRootOfMinusOneIsNotANumber() { 

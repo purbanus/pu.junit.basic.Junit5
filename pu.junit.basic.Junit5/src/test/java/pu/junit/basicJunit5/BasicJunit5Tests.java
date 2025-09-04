@@ -93,9 +93,9 @@ This means it’s now safer to make more complex assertions, as we’ll be able 
  void groupAssertions() {
      int[] numbers = {0, 1, 2, 3, 4};
      assertAll("numbers",
-         () -> assertEquals(numbers[0], 1),
+         () -> assertEquals(numbers[0], 0),
          () -> assertEquals(numbers[3], 3),
-         () -> assertEquals(numbers[4], 1)
+         () -> assertEquals(numbers[4], 4)
      );
  }
 /**
