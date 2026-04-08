@@ -8,31 +8,31 @@
 		<dependency>
 		    <groupId>org.junit.platform</groupId>
 		    <artifactId>junit-platform-suite</artifactId>
-		    <version>6.0.0-RC2</version>
+		    <version>${junit-platform-version}</version>
 		    <scope>test</scope>
 		</dependency>
 		<dependency>
 		    <groupId>org.junit.platform</groupId>
 		    <artifactId>junit-platform-launcher</artifactId>
-		    <version>6.0.0-RC2</version>
+		    <version>${junit-platform-version}</version>
 		    <scope>test</scope>
 		</dependency>
 		<dependency>
 		    <groupId>org.junit.platform</groupId>
 		    <artifactId>junit-platform-runner</artifactId>
-		    <version>1.13.4</version>
+		    <version>${junit-platform-version}</version>
 		    <scope>test</scope>
 		</dependency>
 		<dependency>
 		    <groupId>org.junit.vintage</groupId>
 		    <artifactId>junit-vintage-engine</artifactId>
-		    <version>6.0.0-RC2</version>
+		    <version>${junit-jupiter-version}</version>
 		    <scope>test</scope>
 		</dependency>
 		<dependency>
 		    <groupId>org.junit.jupiter</groupId>
 		    <artifactId>junit-jupiter-api</artifactId>
-		    <version>6.0.0-RC2</version>
+		    <version>${junit-jupiter-version}</version>
 		    <scope>test</scope>
 		</dependency>
 	  <dependency>
@@ -44,13 +44,13 @@
 		<dependency>
 		    <groupId>org.junit.jupiter</groupId>
 		    <artifactId>junit-jupiter-migrationsupport</artifactId>
-		    <version>6.0.0-RC2</version>
+		    <version>${junit-jupiter-version}</version>
 		    <scope>test</scope>
 		</dependency>
 		<dependency>
 		    <groupId>org.junit.jupiter</groupId>
 		    <artifactId>junit-jupiter-params</artifactId>
-		    <version>6.0.0-RC2</version>
+		    <version>${junit-jupiter-version}</version>
 		    <scope>test</scope>
 		</dependency>
 		<dependency>
@@ -63,12 +63,19 @@
 		<dependency>
 		    <groupId>org.junit</groupId>
 		    <artifactId>junit-bom</artifactId>
-		    <version>6.0.0-RC2</version>
+		    <version>${junit-jupiter-version}</version>
 		    <type>pom</type>
 		    <scope>test</scope>
 		</dependency>
 		-->
 	</dependencies>
+	   <properties>
+<!-- Dit was de oorspronkelijke versie        
+	      <junit-jupiter-version>6.0.0.RC2</junit-jupiter-version>-->
+        <junit-jupiter-version>5.11.0-M2</junit-jupiter-version>
+        <junit-platform-version>1.13.4</junit-platform-version>
+    </properties>
+
   <build>
     <resources>
       <resource>
