@@ -11,9 +11,10 @@ Keep in mind that at this early stage, most IDEs don’t support these features.
 @SelectPackages is used to specify the names of packages to be selected when running a test suite. In our example, it will run all tests. The second annotation, @SelectClasses, is used to specify the classes to be selected when running a test suite:
 */
 
-@Suite
-@SelectPackages("pu.junit.basicJunit5")
-//@ExcludePackages("com.baeldung.suites")
+//Die suite dingen doen het bij mij niet. Geeft niet, ik heb het niet nodig
+//@Suite
+//@SelectPackages("basic.Junit5.basic.Junit5")
+////@ExcludePackages("com.baeldung.suites")
 public class AllUnitTests
 {
 }

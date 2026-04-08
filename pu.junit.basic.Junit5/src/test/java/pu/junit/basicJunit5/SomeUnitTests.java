@@ -8,6 +8,7 @@ import org.junit.platform.suite.api.Suite;
  * don’t have to be in one single package.
  */
 
-@Suite
-@SelectClasses({BasicJunit5Tests.class})
+// Die suite dingen doen het bij mij niet. Geeft niet, ik heb het niet nodig
+//@Suite
+//@SelectClasses({BasicJunit5Tests.class})
 public class SomeUnitTests {}
