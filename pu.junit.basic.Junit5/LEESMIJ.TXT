@@ -1,0 +1,6 @@
+Dit is de source code voor de volgende Baeldun sites:
+https://www.baeldung.com/junit-5 voor basic Junit  5 tests
+https://www.baeldung.com/parameterized-tests-junit-5 voor de parameterized tests
+https://www.baeldung.com/java-junit-hamcrest-guide voor de assertthat tests
+https://www.baeldung.com/hamcrest-core-matchers voor de hamcrest core matchers
+https://www.baeldung.com/hamcrest-text-matchers voor de hamcrest text matchers
